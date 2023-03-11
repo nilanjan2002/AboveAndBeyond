@@ -1,0 +1,134 @@
+
+html{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+    body {
+        margin: 0;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background: url(https://wallpaperaccess.com/full/4442479.gif); */
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 16px;
+}
+h2{
+    color: antiquewhite;
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+  }
+
+header {
+    /* background-color: #4285f4; */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+select{
+    cursor: pointer;
+}
+input{
+    cursor: grab;
+}
+input[type="range"]:active::-webkit-slider-thumb {
+    cursor: grabbing;
+  }
+  
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.upper{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.lower{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.container {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 80px;
+    margin-top: 150px;
+    text-align: center;
+    vertical-align: top;
+}
+
+.room {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+    border: 1px solid white;
+    cursor: not-allowed;
+}
+
+.red {
+    background-color: #FF4136;
+}
+
+.green {
+    background-color: #2ECC40;
+}
+
+.blue {
+    background-color: #0074D9;
+}
+
+.black {
+    background-color: black;
+}
+
+footer {
+
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.low{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+#room1{
+    filter: brightness(100%);
+}
+
+#room2{
+    filter: brightness(100%);
+}
+
+#room3{
+    filter: brightness(100%);
+}
+
+#room4{
+    filter: brightness(100%);
+}
